@@ -19,8 +19,8 @@ describe("transformWeatherInfo(weather)", () => {
     expect(weather.length).toEqual(1);
     expect(weather[0]).toBeTruthy();
     expect(weather[0].date).toEqual(new Date("2019-10-16T23:00:00.000Z"));
-    expect(weather[0].avgHumidity).toBe(67);
-    expect(weather[0].maxTemp).toBe(toCelsius(58.79));
+    expect(weather[0].avgHumidity).toEqual(67);
+    expect(weather[0].maxTemp).toEqual(58.79);
   });
   it("should return the forecast for the next  6 days", () => {
     const weather = transformWeatherInfo(testData2);
