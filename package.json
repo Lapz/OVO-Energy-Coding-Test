@@ -1,0 +1,32 @@
+{
+  "name": "ovo",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Lenard Pratt",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev ./src",
+    "build": "next build ./src",
+    "start": "next start ./src",
+    "test": "jest src/**/*.test.ts"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-typescript": "^7.6.0",
+    "@material-ui/core": "^4.3.1",
+    "@material-ui/icons": "^4.2.1",
+    "babel": "^6.23.0",
+    "next": "9.1.1",
+    "react": "16.10.2",
+    "react-dom": "16.10.2",
+    "use-async-effect": "^2.2.1"
+  },
+  "devDependencies": {
+    "@material-ui/types": "^4.1.1",
+    "@types/jest": "^22.2.3",
+    "@types/node": "^12.7.12",
+    "@types/react": "^16.9.6",
+    "jest": "^24.9.0",
+    "typescript": "^3.6.4"
+  }
+}
