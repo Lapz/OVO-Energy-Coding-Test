@@ -6,9 +6,9 @@
   "license": "MIT",
   "scripts": {
     "dev": "next dev ./src",
-    "build": "next build ./src",
-    "start": "next start ./src",
-    "test": "jest src/**/*.test.ts"
+    "build": "next build ",
+    "start": "next start",
+    "test": "jest **/*.test.ts"
   },
   "dependencies": {
     "@babel/preset-env": "^7.6.3",
